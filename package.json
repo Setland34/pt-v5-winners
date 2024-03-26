@@ -1,9 +1,9 @@
 {
-  "name": "pt-v5-winners-testnet",
+  "name": "pt-v5-winners-mainnet",
   "version": "1.0.0",
-  "description": "Efficient cron action to calculate and store winners output for PT v5 testnet using Foundry.",
+  "description": "Efficient cron action to calculate and store winners output for PT v5 mainnet using Foundry.",
   "main": "index.js",
-  "repository": "git@github.com:generationsoftware/pt-v5-winners-testnet.git",
+  "repository": "git@github.com:generationsoftware/pt-v5-winners-mainnet.git",
   "author": {
     "name": "G9 Software Inc.",
     "url": "https://github.com/generationsoftware"

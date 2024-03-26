@@ -95,7 +95,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git pull
           git add ./winners
-          git commit -m "Add testnet winner results for Optimism draw #${{steps.vaultAccountsOptimism.outputs.drawId}}"
+          git commit -m "Add mainnet winner results for Optimism draw #${{steps.vaultAccountsOptimism.outputs.drawId}}"
       # 7. Push
       - name: Push changes (if required)
         uses: ad-m/github-push-action@master
