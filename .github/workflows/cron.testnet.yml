@@ -42,7 +42,7 @@ jobs:
       # 1. Install
       - name: Install PoolTogether V5 CLI
         run: |
-          npm install -g @generationsoftware/pt-v5-cli@1.1.0-beta.9
+          npm install -g @generationsoftware/pt-v5-cli@1.0.8
           echo "$(npm -g bin)" >> $GITHUB_PATH
           
       # 2. Compute JSON input files (vault accounts)
