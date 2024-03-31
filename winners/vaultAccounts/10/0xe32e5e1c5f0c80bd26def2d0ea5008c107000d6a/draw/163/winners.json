@@ -85,6 +85,14 @@
       }
     },
     {
+      "user": "0x837CBFC411095fb3E1E9Cf4fDcf1A6d5d8C525b5",
+      "prizes": {
+        "3": [
+          54
+        ]
+      }
+    },
+    {
       "user": "0xe08B1C054E90Fe8e518B213F4F04B5Bb49875c3E",
       "prizes": {
         "4": [
@@ -105,14 +113,6 @@
       "prizes": {
         "4": [
           39
-        ]
-      }
-    },
-    {
-      "user": "0x837CBFC411095fb3E1E9Cf4fDcf1A6d5d8C525b5",
-      "prizes": {
-        "3": [
-          54
         ]
       }
     }
