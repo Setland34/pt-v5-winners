@@ -1,12 +1,7 @@
 {
-  "status": "FAILURE",
-  "createdAt": 1713320394397,
-  "updatedAt": 1713320395246,
+  "status": "SUCCESS",
+  "createdAt": 1713321877572,
+  "updatedAt": 1713321878418,
   "runtime": 1,
-  "error": {
-    "message": "request to https://api.studio.thegraph.com/query/50959/pt-v5-op/version/latest?source=pooltogether failed, reason: ",
-    "type": "system",
-    "errno": "ETIMEDOUT",
-    "code": "ETIMEDOUT"
-  }
+  "meta": {}
 }
