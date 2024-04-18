@@ -1,4 +1,4 @@
-name: CronJob
+name: CronJob - Op Mainnet
 on:
   schedule:
     - cron: "10,40 * * * *" # ie. 4:10pm, 4:40pm, 5:10pm, etc.
