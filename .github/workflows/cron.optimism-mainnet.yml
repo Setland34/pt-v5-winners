@@ -108,7 +108,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git pull
           git add ./${{ env.OUTPUT_DIRECTORY_NAME }}
-          git commit -m "Add testnet winner results for Optimism draw #${{ steps.vaultAccountsOptimism.outputs.drawId }}"
+          git commit -m "Add mainnet winner results for Optimism draw #${{ steps.vaultAccountsOptimism.outputs.drawId }}"
 
       # 8. Push
       - name: Push changes (if required)
