@@ -4,7 +4,7 @@ on:
     - cron: "*/15 * * * *" # ie. 4:10pm, 4:25pm, 4:40pm, etc.
   push:
 env:
-  CHAIN_ID: 11155420
+  CHAIN_ID: 10
   PRIZE_POOL_ADDRESS: "0xf35fe10ffd0a9672d0095c435fd8767a7fe29b55"
   VAULT_ACCOUNTS_DIRECTORY_NAME: "vaultAccounts"
   OUTPUT_DIRECTORY_NAME: "winners"
