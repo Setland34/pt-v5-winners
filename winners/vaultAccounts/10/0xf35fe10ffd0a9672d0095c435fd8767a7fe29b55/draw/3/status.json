@@ -1,16 +1,12 @@
 {
-  "status": "FAILURE",
-  "createdAt": 1713803014827,
-  "updatedAt": 1713803032658,
-  "runtime": 18,
-  "error": {
-    "response": {
-      "error": "<html>\n<head><title>502 Bad Gateway</title><script src=\"/cdn-cgi/apps/head/a-7iaLT0SRdb_kvxGKIYLrjkGzU.js\"></script></head>\n<body>\n<center><h1>502 Bad Gateway</h1></center>\n<hr><center>nginx/1.21.3</center>\n</body>\n</html>\n",
-      "status": 502,
-      "headers": {}
-    },
-    "request": {
-      "query": "\n    {\n      prizeVaults {\n        id\n      }\n    }\n  "
-    }
+  "status": "SUCCESS",
+  "createdAt": 1713803700170,
+  "updatedAt": 1713803705156,
+  "runtime": 5,
+  "meta": {
+    "numVaults": 13,
+    "numTiers": 6,
+    "numPrizeIndices": 1365,
+    "numAccounts": 306
   }
 }
