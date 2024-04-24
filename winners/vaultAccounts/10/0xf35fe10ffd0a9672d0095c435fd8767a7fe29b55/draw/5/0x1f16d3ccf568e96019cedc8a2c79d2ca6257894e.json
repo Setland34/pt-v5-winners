@@ -288,18 +288,18 @@
       }
     },
     {
-      "user": "0xDADd6E94b6aB894E536B5eb90A2Bb04bbD4e78B8",
-      "prizes": {
-        "4": [
-          60
-        ]
-      }
-    },
-    {
       "user": "0x8a9113778F7169bd4962F8aF43E19f60aA46817d",
       "prizes": {
         "3": [
           8
+        ]
+      }
+    },
+    {
+      "user": "0xDADd6E94b6aB894E536B5eb90A2Bb04bbD4e78B8",
+      "prizes": {
+        "4": [
+          60
         ]
       }
     }
