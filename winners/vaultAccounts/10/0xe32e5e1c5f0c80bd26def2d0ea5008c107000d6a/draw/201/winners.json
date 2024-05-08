@@ -12,14 +12,6 @@
   "0xbd8fd33e53ab4120638c34cbd454112b39f6b382": [],
   "0xce8293f586091d48a0ce761bbf85d5bcaa1b8d2b": [
     {
-      "user": "0x2536eE17BF914cd6D72ec9CBf9502dE9F1bbdFDF",
-      "prizes": {
-        "3": [
-          35
-        ]
-      }
-    },
-    {
       "user": "0xd455992691f18b447823dd12C28Bc31626706244",
       "prizes": {
         "4": [
@@ -35,6 +27,14 @@
       "prizes": {
         "4": [
           221
+        ]
+      }
+    },
+    {
+      "user": "0x2536eE17BF914cd6D72ec9CBf9502dE9F1bbdFDF",
+      "prizes": {
+        "3": [
+          35
         ]
       }
     }
