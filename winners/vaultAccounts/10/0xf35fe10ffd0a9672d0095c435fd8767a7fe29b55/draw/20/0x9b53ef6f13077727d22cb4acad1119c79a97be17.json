@@ -91,6 +91,14 @@
       }
     },
     {
+      "user": "0xc751Fb28553C9D482Af92F57AaaF72D79Cec70Dc",
+      "prizes": {
+        "2": [
+          10
+        ]
+      }
+    },
+    {
       "user": "0xbE4FeAE32210f682A41e1C41e3eaF4f8204cD29E",
       "prizes": {
         "4": [
@@ -125,14 +133,6 @@
           161,
           213,
           252
-        ]
-      }
-    },
-    {
-      "user": "0xc751Fb28553C9D482Af92F57AaaF72D79Cec70Dc",
-      "prizes": {
-        "2": [
-          10
         ]
       }
     }
