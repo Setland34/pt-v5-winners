@@ -392,6 +392,17 @@
       }
     },
     {
+      "user": "0xe48dD2A322a7EBFDAa9680fD2E8cEC27CBB7A765",
+      "prizes": {
+        "6": [
+          765,
+          1475,
+          1930,
+          2595
+        ]
+      }
+    },
+    {
       "user": "0x9265f86d58b348060E43216f968bda8A6Bb63572",
       "prizes": {
         "4": [
@@ -634,15 +645,6 @@
       }
     },
     {
-      "user": "0xB44B6442B731D9954819470f6f528aa3E65dFF15",
-      "prizes": {
-        "5": [
-          261,
-          791
-        ]
-      }
-    },
-    {
       "user": "0xc751Fb28553C9D482Af92F57AaaF72D79Cec70Dc",
       "prizes": {
         "5": [
@@ -836,6 +838,14 @@
       }
     },
     {
+      "user": "0xdceb0Bb3311342e3ce9e49f57aFfCE9dEac40bA1",
+      "prizes": {
+        "6": [
+          1925
+        ]
+      }
+    },
+    {
       "user": "0xd2d9939580d3b89d12E1EE4636373A44f9E232EC",
       "prizes": {
         "4": [
@@ -981,14 +991,6 @@
       }
     },
     {
-      "user": "0xa09da1d479eD04d69b61cCB6377Aa9c5c901D0e7",
-      "prizes": {
-        "5": [
-          100
-        ]
-      }
-    },
-    {
       "user": "0x6B44862103B8a45F5ec701B69Ec28a5d6d304950",
       "prizes": {
         "5": [
@@ -1016,30 +1018,28 @@
       }
     },
     {
-      "user": "0xe48dD2A322a7EBFDAa9680fD2E8cEC27CBB7A765",
-      "prizes": {
-        "6": [
-          765,
-          1475,
-          1930,
-          2595
-        ]
-      }
-    },
-    {
-      "user": "0xdceb0Bb3311342e3ce9e49f57aFfCE9dEac40bA1",
-      "prizes": {
-        "6": [
-          1925
-        ]
-      }
-    },
-    {
       "user": "0x2B9B48BBDd8018396dAAd50364c467246Db30D87",
       "prizes": {
         "6": [
           1268,
           3065
+        ]
+      }
+    },
+    {
+      "user": "0xB44B6442B731D9954819470f6f528aa3E65dFF15",
+      "prizes": {
+        "5": [
+          261,
+          791
+        ]
+      }
+    },
+    {
+      "user": "0xa09da1d479eD04d69b61cCB6377Aa9c5c901D0e7",
+      "prizes": {
+        "5": [
+          100
         ]
       }
     }
