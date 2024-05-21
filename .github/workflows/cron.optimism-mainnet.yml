@@ -1,7 +1,7 @@
 name: CronJob - Op Mainnet
 on:
   schedule:
-    - cron: "*/15 * * * *" # ie. 4:10pm, 4:25pm, 4:40pm, etc.
+    - cron: "5 */6 * * *" # ie. 6:05am, 12:05pm, 6:05pm, etc.
   push:
 env:
   CHAIN_ID: 10
