@@ -1,4 +1,4 @@
-name: CronJob Arbitrum Sepolia
+name: CronJob - Arbitrum Sepolia
 on:
   schedule:
     - cron: "*/90 * * * *" # ie. 4:00pm, 5:30pm, 7:00pm, etc.

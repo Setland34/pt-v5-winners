@@ -1,4 +1,4 @@
-name: CronJob Optimism Sepolia
+name: CronJob - Optimism Sepolia
 on:
   schedule:
     - cron: "*/90 * * * *" # ie. 4:00pm, 5:30pm, 7:00pm, etc.
@@ -8,9 +8,9 @@ env:
   PRIZE_POOL_ADDRESS: "0x122feca66c2b1ba8fa9c39e88152592a5496bc99"
   VAULT_ACCOUNTS_DIRECTORY_NAME: "vaultAccounts"
   OUTPUT_DIRECTORY_NAME: "winners"
-  CLI_VERSION: "1.1.4"
+  CLI_VERSION: "1.1.7"
   FWC_RPC_URL: ${{ secrets.OPTIMISM_SEPOLIA_RPC_URL }}
-  OPTIMISM_SEPOLIA_RPC_URL: ${{ secrets.OPTIMISM_SEPOLIA_RPC_URL }}
+  JSON_RPC_URL: ${{ secrets.OPTIMISM_SEPOLIA_RPC_URL }}
   NODE_OPTIONS: "--max_old_space_size=32768"
 permissions: write-all
 jobs:

@@ -1,4 +1,4 @@
-name: CronJob Base Sepolia
+name: CronJob - Base Sepolia
 on:
   schedule:
     - cron: "*/90 * * * *" # ie. 4:00pm, 5:30pm, 7:00pm, etc.
@@ -8,9 +8,9 @@ env:
   PRIZE_POOL_ADDRESS: "0xc90625047f206f525a811a54bbec05c23e08b58b"
   VAULT_ACCOUNTS_DIRECTORY_NAME: "vaultAccounts"
   OUTPUT_DIRECTORY_NAME: "winners"
-  CLI_VERSION: "1.1.4"
+  CLI_VERSION: "1.1.7"
   FWC_RPC_URL: ${{ secrets.BASE_SEPOLIA_RPC_URL }}
-  BASE_SEPOLIA_RPC_URL: ${{ secrets.BASE_SEPOLIA_RPC_URL }}
+  JSON_RPC_URL: ${{ secrets.BASE_SEPOLIA_RPC_URL }}
   NODE_OPTIONS: "--max_old_space_size=32768"
 permissions: write-all
 jobs:
