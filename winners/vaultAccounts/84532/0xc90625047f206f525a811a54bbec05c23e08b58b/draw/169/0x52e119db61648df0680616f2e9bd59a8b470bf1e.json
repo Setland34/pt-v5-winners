@@ -17,22 +17,6 @@
       }
     },
     {
-      "user": "0x3806Df593A7f6DAd317Bd61FC9fdb622E10455ef",
-      "prizes": {
-        "2": [
-          5
-        ]
-      }
-    },
-    {
-      "user": "0x6b0e947E986E1B2a4761BbE9E1E1b02A93aA51a1",
-      "prizes": {
-        "2": [
-          7
-        ]
-      }
-    },
-    {
       "user": "0x4D5b8C4730D855D6a790f4923C5749211a62e6ba",
       "prizes": {
         "3": [
@@ -133,6 +117,22 @@
       "prizes": {
         "3": [
           62
+        ]
+      }
+    },
+    {
+      "user": "0x3806Df593A7f6DAd317Bd61FC9fdb622E10455ef",
+      "prizes": {
+        "2": [
+          5
+        ]
+      }
+    },
+    {
+      "user": "0x6b0e947E986E1B2a4761BbE9E1E1b02A93aA51a1",
+      "prizes": {
+        "2": [
+          7
         ]
       }
     }
