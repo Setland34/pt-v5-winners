@@ -8,9 +8,11 @@ env:
   PRIZE_POOL_ADDRESS: "0x51211a6b7aa15b3f1063f151ec3343898cd7bd75"
   VAULT_ACCOUNTS_DIRECTORY_NAME: "vaultAccounts"
   OUTPUT_DIRECTORY_NAME: "winners"
-  CLI_VERSION: "1.1.7"
+  CLI_VERSION: "1.2.0-beta.1"
   FWC_RPC_URL: ${{ secrets.ARBITRUM_SEPOLIA_RPC_URL }}
   JSON_RPC_URL: ${{ secrets.ARBITRUM_SEPOLIA_RPC_URL }}
+  CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-testnet/603b108303c4f639de5dd96005d0629c4dce1357/deployments/arbitrumSepolia/contracts.json'
+  SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-arbitrum-sepolia/version/latest'
   NODE_OPTIONS: "--max_old_space_size=32768"
 permissions: write-all
 jobs:
@@ -57,7 +59,7 @@ jobs:
         continue-on-error: true
         with:
           working-directory: ./foundry-winner-calc
-          run_command: ptv5 utils vaultAccounts -o ./${{ env.VAULT_ACCOUNTS_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }}
+          run_command: ptv5 utils vaultAccounts -o ./${{ env.VAULT_ACCOUNTS_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }} -j ${{ env.CONTRACT_JSON_URL }} -s ${{ env.SUBGRAPH_URL }}
 
       # 3. Install package deps, build contracts
       - name: Install deps and compile
@@ -96,7 +98,7 @@ jobs:
         continue-on-error: true
         with:
           working-directory: ./${{ env.OUTPUT_DIRECTORY_NAME }}
-          run_command: ptv5 utils concatWinners -o ./${{ env.VAULT_ACCOUNTS_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }}
+          run_command: ptv5 utils concatWinners -o ./${{ env.VAULT_ACCOUNTS_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }} -j ${{ env.CONTRACT_JSON_URL }} -s ${{ env.SUBGRAPH_URL }}
 
       # 7. Commit
       - name: Commit Arbitrum Sepolia
