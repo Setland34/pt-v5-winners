@@ -1,12 +1,12 @@
 {
-  "status": "SUCCESS",
-  "createdAt": 1716966422773,
-  "updatedAt": 1716966428941,
-  "runtime": 7,
-  "meta": {
-    "numVaults": 13,
-    "numTiers": 4,
-    "numPrizeIndices": 85,
-    "numAccounts": 9574
+  "status": "FAILURE",
+  "createdAt": 1716970124925,
+  "updatedAt": 1716970132996,
+  "runtime": 9,
+  "error": {
+    "message": "request to https://api.studio.thegraph.com/query/63100/pt-v5-op-sepolia/version/latest failed, reason: read ECONNRESET",
+    "type": "system",
+    "errno": "ECONNRESET",
+    "code": "ECONNRESET"
   }
 }
