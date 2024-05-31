@@ -59,7 +59,7 @@ jobs:
         continue-on-error: true
         with:
           working-directory: ./foundry-winner-calc
-          run_command: ptv5 utils vaultAccounts -o ./${{ env.VAULT_ACCOUNTS_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }}
+          run_command: ptv5 utils vaultAccounts -o ./${{ env.VAULT_ACCOUNTS_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }} -j ${{ env.CONTRACT_JSON_URL }} -s ${{ env.SUBGRAPH_URL }}
 
       # 3. Install package deps, build contracts
       - name: Install deps and compile
@@ -98,7 +98,7 @@ jobs:
         continue-on-error: true
         with:
           working-directory: ./${{ env.OUTPUT_DIRECTORY_NAME }}
-          run_command: ptv5 utils concatWinners -o ./${{ env.VAULT_ACCOUNTS_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }}
+          run_command: ptv5 utils concatWinners -o ./${{ env.VAULT_ACCOUNTS_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }} -j ${{ env.CONTRACT_JSON_URL }} -s ${{ env.SUBGRAPH_URL }}
 
       # 7. Commit
       - name: Commit Base Sepolia
