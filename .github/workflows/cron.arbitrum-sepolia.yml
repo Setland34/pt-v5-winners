@@ -8,7 +8,7 @@ env:
   PRIZE_POOL_ADDRESS: "0x51211a6b7aa15b3f1063f151ec3343898cd7bd75"
   VAULT_ACCOUNTS_DIRECTORY_NAME: "vaultAccounts"
   OUTPUT_DIRECTORY_NAME: "winners"
-  CLI_VERSION: "1.2.0-beta.1"
+  CLI_VERSION: "1.2.0"
   FWC_RPC_URL: ${{ secrets.ARBITRUM_SEPOLIA_RPC_URL }}
   JSON_RPC_URL: ${{ secrets.ARBITRUM_SEPOLIA_RPC_URL }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-testnet/603b108303c4f639de5dd96005d0629c4dce1357/deployments/arbitrumSepolia/contracts.json'

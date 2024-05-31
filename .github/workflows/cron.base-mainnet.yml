@@ -8,9 +8,11 @@ env:
   PRIZE_POOL_ADDRESS: "0x45b2010d8A4f08b53c9fa7544C51dFd9733732cb"
   VAULT_ACCOUNTS_DIRECTORY_NAME: "vaultAccounts"
   OUTPUT_DIRECTORY_NAME: "winners"
-  CLI_VERSION: "1.1.7"
+  CLI_VERSION: "1.2.0"
   FWC_RPC_URL: ${{ secrets.BASE_MAINNET_RPC_URL }}
   JSON_RPC_URL: ${{ secrets.BASE_MAINNET_RPC_URL }}
+  CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/bc84c3f5e1d9703372ae7f9baf584bab42f47b27/deployments/base/contracts.json'
+  SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/41211/pt-v5-base/version/latest?source=pooltogether'
   NODE_OPTIONS: "--max_old_space_size=32768"
 permissions: write-all
 jobs:
