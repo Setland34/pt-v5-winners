@@ -17,7 +17,6 @@ env:
 permissions: write-all
 jobs:
   runCLI:
-    if: ${{ false }} # <- This makes sure the workflow is skipped without any alert
     name: Winners Compute
     runs-on: ${{ matrix.os }}
     strategy:
