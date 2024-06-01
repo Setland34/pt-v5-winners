@@ -1,4 +1,4 @@
-name: CronJob - Op Mainnet
+name: CronJob - Optimism Mainnet
 on:
   schedule:
     - cron: "5 */6 * * *" # ie. 6:05am, 12:05pm, 6:05pm, etc.
@@ -44,7 +44,7 @@ jobs:
           path: './foundry-winner-calc'
 
       # -------------------------------------------------------- #
-      # Optimism
+      # Optimism Mainnet
       # -------------------------------------------------------- #
       # 1. Install
       - name: Install PoolTogether V5 CLI
@@ -53,7 +53,7 @@ jobs:
           echo "$(npm -g bin)" >> $GITHUB_PATH
           
       # 2. Compute JSON input files (vault accounts)
-      - name: Optimism Vault Accounts
+      - name: Optimism Mainnet Vault Accounts
         id: vaultAccountsOptimism
         uses: chuckbergeron/executable-wrapper@f94b435740d6b958c2d7eb76c77657e761819cfe
         continue-on-error: true
@@ -101,7 +101,7 @@ jobs:
           run_command: ptv5 utils concatWinners -o ./${{ env.VAULT_ACCOUNTS_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }} -j ${{ env.CONTRACT_JSON_URL }} -s ${{ env.SUBGRAPH_URL }}
 
       # 7. Commit
-      - name: Commit Optimism
+      - name: Commit Optimism Mainnet
         if: steps.vaultAccountsOptimism.outputs.runStatus == 'true'
         continue-on-error: true
         run: |
@@ -110,7 +110,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git pull
           git add ./${{ env.OUTPUT_DIRECTORY_NAME }}
-          git commit -m "Add mainnet winner results for Optimism draw #${{ steps.vaultAccountsOptimism.outputs.drawId }}"
+          git commit -m "Add mainnet winner results for Optimism Mainnet draw #${{ steps.vaultAccountsOptimism.outputs.drawId }}"
 
       # 8. Push
       - name: Push changes (if required)
