@@ -121,16 +121,3 @@ jobs:
           branch: ${{ github.ref }}
           force: true
 
-      # Optionally:
-      - name: Comment Error
-        id: commentError
-        if: steps.vaultAccountsBaseSepolia.outputs.exitcode == 1
-        uses: actions/github-script@v7
-        continue-on-error: true
-        with:
-          script: |
-            await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: `Draw #${{ steps.vaultAccountsBaseSepolia.outputs.drawId }} Winner Calc Failed: Exit Code 1`
-            })

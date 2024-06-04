@@ -55,7 +55,7 @@ jobs:
       # 2. Compute JSON input files (vault accounts)
       - name: Optimism Sepolia Vault Accounts
         id: vaultAccountsOptimismSepolia
-        uses: chuckbergeron/executable-wrapper@f94b435740d6b958c2d7eb76c77657e761819cfe
+        uses: github/executable-wrapper@e19cd743c8f0c6af006f6a25bd6715c770569d72
         continue-on-error: true
         with:
           working-directory: ./foundry-winner-calc
@@ -120,17 +120,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
           force: true
-
-      # Optionally:
-      - name: Comment Error
-        id: commentError
-        if: steps.vaultAccountsOptimismSepolia.outputs.exitcode == 1
-        uses: actions/github-script@v5
-        continue-on-error: true
-        with:
-          script: |
-            await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: `Draw #${{ steps.vaultAccountsOptimismSepolia.outputs.drawId }} Winner Calc Failed: Exit Code 1`
-            })
