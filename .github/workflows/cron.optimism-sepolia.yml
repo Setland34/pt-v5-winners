@@ -55,7 +55,7 @@ jobs:
       # 2. Compute JSON input files (vault accounts)
       - name: Optimism Sepolia Vault Accounts
         id: vaultAccountsOptimismSepolia
-        uses: github/executable-wrapper@e19cd743c8f0c6af006f6a25bd6715c770569d72
+        uses: chuckbergeron/executable-wrapper@e19cd743c8f0c6af006f6a25bd6715c770569d72
         continue-on-error: true
         with:
           working-directory: ./foundry-winner-calc
