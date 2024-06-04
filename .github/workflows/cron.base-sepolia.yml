@@ -125,7 +125,7 @@ jobs:
       - name: Comment Error
         id: commentError
         if: steps.vaultAccountsBaseSepolia.outputs.exitcode == 1
-        uses: actions/github-script@v5
+        uses: actions/github-script@v7
         continue-on-error: true
         with:
           script: |
