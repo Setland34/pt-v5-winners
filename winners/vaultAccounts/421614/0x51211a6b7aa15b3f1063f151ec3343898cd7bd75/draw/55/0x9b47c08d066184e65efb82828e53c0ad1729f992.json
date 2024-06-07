@@ -1,6 +1,124 @@
 {
   "winners": [
     {
+      "user": "0xB01A0cEA4f4A85B4Af0a491d1404bCcb7a406957",
+      "prizes": {
+        "3": [
+          9
+        ]
+      }
+    },
+    {
+      "user": "0xb8e8578D21cd145c509BfdCA2554ed19380cd69c",
+      "prizes": {
+        "3": [
+          58
+        ]
+      }
+    },
+    {
+      "user": "0xDe67accE97043b09C679BfB60dA8d06f00bFc15C",
+      "prizes": {
+        "3": [
+          39
+        ]
+      }
+    },
+    {
+      "user": "0x06c255406d23816662E2438021bFed6218c954F4",
+      "prizes": {
+        "3": [
+          63
+        ]
+      }
+    },
+    {
+      "user": "0x946F979af6504A60b0877A371D7a8543B40932aE",
+      "prizes": {
+        "3": [
+          48
+        ]
+      }
+    },
+    {
+      "user": "0x52dc064dfc51ebb5442b498eFFA406d68CEEFF42",
+      "prizes": {
+        "3": [
+          58
+        ]
+      }
+    },
+    {
+      "user": "0x3DB69e2D0DB419AAa2Ce2Ed0E4d69e2DAbAc1665",
+      "prizes": {
+        "3": [
+          54
+        ]
+      }
+    },
+    {
+      "user": "0x4203823A828f45494a3aC97c6B26D0D6e5817a1A",
+      "prizes": {
+        "3": [
+          0
+        ]
+      }
+    },
+    {
+      "user": "0x538b92f3Ee6e455fe3e2cD2aF974565A27676Bea",
+      "prizes": {
+        "3": [
+          7
+        ]
+      }
+    },
+    {
+      "user": "0xCcf068289229EF0Af1b97D85AeB688eeC0BfD1Ed",
+      "prizes": {
+        "3": [
+          10
+        ]
+      }
+    },
+    {
+      "user": "0xe0B8609c6A4Ffb487AfFF16A6329C208fb684678",
+      "prizes": {
+        "3": [
+          3
+        ]
+      }
+    },
+    {
+      "user": "0x03D8De31aF3712833AaFD5362921f28f4d181477",
+      "prizes": {
+        "3": [
+          29
+        ],
+        "4": [
+          64
+        ]
+      }
+    },
+    {
+      "user": "0xCe923e266EfE32Ca5812E19a3EBF3eC6Cf80EA51",
+      "prizes": {
+        "3": [
+          8
+        ]
+      }
+    },
+    {
+      "user": "0xbCc97d7f33a35B2cFfcd77590B671325a669d33e",
+      "prizes": {
+        "3": [
+          60
+        ],
+        "4": [
+          43
+        ]
+      }
+    },
+    {
       "user": "0x2E40F16E52fF58AC3b0D4C75Bdf6fcA431C90371",
       "prizes": {
         "4": [
@@ -383,17 +501,6 @@
       }
     },
     {
-      "user": "0x03D8De31aF3712833AaFD5362921f28f4d181477",
-      "prizes": {
-        "3": [
-          29
-        ],
-        "4": [
-          64
-        ]
-      }
-    },
-    {
       "user": "0x68c6B1211f82a070efE864f748b7A2506e496956",
       "prizes": {
         "4": [
@@ -422,17 +529,6 @@
       "prizes": {
         "4": [
           19
-        ]
-      }
-    },
-    {
-      "user": "0xbCc97d7f33a35B2cFfcd77590B671325a669d33e",
-      "prizes": {
-        "3": [
-          60
-        ],
-        "4": [
-          43
         ]
       }
     },
@@ -505,102 +601,6 @@
       "prizes": {
         "2": [
           13
-        ]
-      }
-    },
-    {
-      "user": "0xB01A0cEA4f4A85B4Af0a491d1404bCcb7a406957",
-      "prizes": {
-        "3": [
-          9
-        ]
-      }
-    },
-    {
-      "user": "0xb8e8578D21cd145c509BfdCA2554ed19380cd69c",
-      "prizes": {
-        "3": [
-          58
-        ]
-      }
-    },
-    {
-      "user": "0xDe67accE97043b09C679BfB60dA8d06f00bFc15C",
-      "prizes": {
-        "3": [
-          39
-        ]
-      }
-    },
-    {
-      "user": "0x06c255406d23816662E2438021bFed6218c954F4",
-      "prizes": {
-        "3": [
-          63
-        ]
-      }
-    },
-    {
-      "user": "0x946F979af6504A60b0877A371D7a8543B40932aE",
-      "prizes": {
-        "3": [
-          48
-        ]
-      }
-    },
-    {
-      "user": "0x52dc064dfc51ebb5442b498eFFA406d68CEEFF42",
-      "prizes": {
-        "3": [
-          58
-        ]
-      }
-    },
-    {
-      "user": "0x3DB69e2D0DB419AAa2Ce2Ed0E4d69e2DAbAc1665",
-      "prizes": {
-        "3": [
-          54
-        ]
-      }
-    },
-    {
-      "user": "0x4203823A828f45494a3aC97c6B26D0D6e5817a1A",
-      "prizes": {
-        "3": [
-          0
-        ]
-      }
-    },
-    {
-      "user": "0x538b92f3Ee6e455fe3e2cD2aF974565A27676Bea",
-      "prizes": {
-        "3": [
-          7
-        ]
-      }
-    },
-    {
-      "user": "0xCcf068289229EF0Af1b97D85AeB688eeC0BfD1Ed",
-      "prizes": {
-        "3": [
-          10
-        ]
-      }
-    },
-    {
-      "user": "0xe0B8609c6A4Ffb487AfFF16A6329C208fb684678",
-      "prizes": {
-        "3": [
-          3
-        ]
-      }
-    },
-    {
-      "user": "0xCe923e266EfE32Ca5812E19a3EBF3eC6Cf80EA51",
-      "prizes": {
-        "3": [
-          8
         ]
       }
     }
