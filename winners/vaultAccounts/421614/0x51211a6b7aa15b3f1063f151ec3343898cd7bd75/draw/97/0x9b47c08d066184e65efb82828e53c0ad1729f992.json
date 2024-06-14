@@ -1,6 +1,57 @@
 {
   "winners": [
     {
+      "user": "0x463CE6c54f4b00e7dC757c30447297f56FD14372",
+      "prizes": {
+        "2": [
+          1
+        ]
+      }
+    },
+    {
+      "user": "0x939d489dc668cc0bc353c329B2F4d9DfDa76ebCf",
+      "prizes": {
+        "2": [
+          1
+        ]
+      }
+    },
+    {
+      "user": "0x315b22a044C5C6296f86bC8ee925909fFA39170A",
+      "prizes": {
+        "2": [
+          5
+        ]
+      }
+    },
+    {
+      "user": "0xd05A0925f010b12dfa54cDE6B14e0A7fB7D07BAF",
+      "prizes": {
+        "2": [
+          10
+        ]
+      }
+    },
+    {
+      "user": "0x682Ef7aB8CCF78a5805e0fA98667594C0075bE36",
+      "prizes": {
+        "2": [
+          3
+        ]
+      }
+    },
+    {
+      "user": "0x02DdF7a48a4f590be7f5eD7F512D385134bBe413",
+      "prizes": {
+        "2": [
+          8
+        ],
+        "4": [
+          67
+        ]
+      }
+    },
+    {
       "user": "0x7BAC58BE92758F72565ABe1DAfe053AA8EFBd7db",
       "prizes": {
         "4": [
@@ -386,17 +437,6 @@
       "prizes": {
         "4": [
           82
-        ]
-      }
-    },
-    {
-      "user": "0x02DdF7a48a4f590be7f5eD7F512D385134bBe413",
-      "prizes": {
-        "2": [
-          8
-        ],
-        "4": [
-          67
         ]
       }
     },
@@ -820,46 +860,6 @@
       "prizes": {
         "4": [
           174
-        ]
-      }
-    },
-    {
-      "user": "0x463CE6c54f4b00e7dC757c30447297f56FD14372",
-      "prizes": {
-        "2": [
-          1
-        ]
-      }
-    },
-    {
-      "user": "0x939d489dc668cc0bc353c329B2F4d9DfDa76ebCf",
-      "prizes": {
-        "2": [
-          1
-        ]
-      }
-    },
-    {
-      "user": "0x315b22a044C5C6296f86bC8ee925909fFA39170A",
-      "prizes": {
-        "2": [
-          5
-        ]
-      }
-    },
-    {
-      "user": "0xd05A0925f010b12dfa54cDE6B14e0A7fB7D07BAF",
-      "prizes": {
-        "2": [
-          10
-        ]
-      }
-    },
-    {
-      "user": "0x682Ef7aB8CCF78a5805e0fA98667594C0075bE36",
-      "prizes": {
-        "2": [
-          3
         ]
       }
     },
