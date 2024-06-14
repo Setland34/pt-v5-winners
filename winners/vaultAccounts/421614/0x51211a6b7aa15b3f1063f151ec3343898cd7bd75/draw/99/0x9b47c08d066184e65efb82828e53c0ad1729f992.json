@@ -1,53 +1,6 @@
 {
   "winners": [
     {
-      "user": "0xb8B288eA5C6cBE3517072F23e241f08BBe7Ce520",
-      "prizes": {
-        "2": [
-          5
-        ]
-      }
-    },
-    {
-      "user": "0x52dc064dfc51ebb5442b498eFFA406d68CEEFF42",
-      "prizes": {
-        "2": [
-          12
-        ],
-        "4": [
-          150
-        ]
-      }
-    },
-    {
-      "user": "0xc45B8f05dd5A04e93cD323d3e543E0bF7DD4F85e",
-      "prizes": {
-        "2": [
-          14
-        ]
-      }
-    },
-    {
-      "user": "0x96e3cD962774Cfb7cEcaf04E6186B531B1Fa6703",
-      "prizes": {
-        "2": [
-          6
-        ],
-        "4": [
-          60,
-          214
-        ]
-      }
-    },
-    {
-      "user": "0xc6EAeAFfdCA411D6893B1cc961785956E72EE7Df",
-      "prizes": {
-        "2": [
-          4
-        ]
-      }
-    },
-    {
       "user": "0xB22B5cA65b4c87b0C4Ba444f22a3e80D58ca8063",
       "prizes": {
         "4": [
@@ -405,6 +358,17 @@
       }
     },
     {
+      "user": "0x52dc064dfc51ebb5442b498eFFA406d68CEEFF42",
+      "prizes": {
+        "2": [
+          12
+        ],
+        "4": [
+          150
+        ]
+      }
+    },
+    {
       "user": "0xd5A461abB66ceBABD650Ab590cec106d200F9F90",
       "prizes": {
         "4": [
@@ -647,6 +611,18 @@
       }
     },
     {
+      "user": "0x96e3cD962774Cfb7cEcaf04E6186B531B1Fa6703",
+      "prizes": {
+        "2": [
+          6
+        ],
+        "4": [
+          60,
+          214
+        ]
+      }
+    },
+    {
       "user": "0x613158A49220BB9189d3A5005ac936c95Ea4Cf6f",
       "prizes": {
         "4": [
@@ -860,6 +836,30 @@
       "prizes": {
         "4": [
           57
+        ]
+      }
+    },
+    {
+      "user": "0xb8B288eA5C6cBE3517072F23e241f08BBe7Ce520",
+      "prizes": {
+        "2": [
+          5
+        ]
+      }
+    },
+    {
+      "user": "0xc45B8f05dd5A04e93cD323d3e543E0bF7DD4F85e",
+      "prizes": {
+        "2": [
+          14
+        ]
+      }
+    },
+    {
+      "user": "0xc6EAeAFfdCA411D6893B1cc961785956E72EE7Df",
+      "prizes": {
+        "2": [
+          4
         ]
       }
     },
