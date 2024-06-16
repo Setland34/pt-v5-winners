@@ -1,62 +1,6 @@
 {
   "winners": [
     {
-      "user": "0xB6D279e859c2A394c8e11c4241f9E0B646b51a41",
-      "prizes": {
-        "3": [
-          41
-        ]
-      }
-    },
-    {
-      "user": "0x282cf1cf804CDBb181CF0D092fb06199012112aD",
-      "prizes": {
-        "3": [
-          58
-        ]
-      }
-    },
-    {
-      "user": "0x3467b50de958717DF7FA6659D657EDa1Ca9868B8",
-      "prizes": {
-        "3": [
-          5
-        ]
-      }
-    },
-    {
-      "user": "0x1600b8B9Ea2AC0979A1c997F4B6fe6C596224E7D",
-      "prizes": {
-        "3": [
-          47
-        ]
-      }
-    },
-    {
-      "user": "0x9BF4DB2231157Fc0A648D4679cB01FF4Dc8e2f5D",
-      "prizes": {
-        "3": [
-          48
-        ]
-      }
-    },
-    {
-      "user": "0x0fadC9007f12cc63eD2B8Ed630Db9171bEd0bF4e",
-      "prizes": {
-        "3": [
-          56
-        ]
-      }
-    },
-    {
-      "user": "0x1C8CBd1edE2cE4CF869D4a47D86eB831590D9a6A",
-      "prizes": {
-        "3": [
-          50
-        ]
-      }
-    },
-    {
       "user": "0xfe294040a90e87dBdD86f69474344e03b58Faa62",
       "prizes": {
         "5": [
@@ -584,6 +528,62 @@
         ],
         "5": [
           417
+        ]
+      }
+    },
+    {
+      "user": "0xB6D279e859c2A394c8e11c4241f9E0B646b51a41",
+      "prizes": {
+        "3": [
+          41
+        ]
+      }
+    },
+    {
+      "user": "0x282cf1cf804CDBb181CF0D092fb06199012112aD",
+      "prizes": {
+        "3": [
+          58
+        ]
+      }
+    },
+    {
+      "user": "0x3467b50de958717DF7FA6659D657EDa1Ca9868B8",
+      "prizes": {
+        "3": [
+          5
+        ]
+      }
+    },
+    {
+      "user": "0x1600b8B9Ea2AC0979A1c997F4B6fe6C596224E7D",
+      "prizes": {
+        "3": [
+          47
+        ]
+      }
+    },
+    {
+      "user": "0x9BF4DB2231157Fc0A648D4679cB01FF4Dc8e2f5D",
+      "prizes": {
+        "3": [
+          48
+        ]
+      }
+    },
+    {
+      "user": "0x0fadC9007f12cc63eD2B8Ed630Db9171bEd0bF4e",
+      "prizes": {
+        "3": [
+          56
+        ]
+      }
+    },
+    {
+      "user": "0x1C8CBd1edE2cE4CF869D4a47D86eB831590D9a6A",
+      "prizes": {
+        "3": [
+          50
         ]
       }
     },
