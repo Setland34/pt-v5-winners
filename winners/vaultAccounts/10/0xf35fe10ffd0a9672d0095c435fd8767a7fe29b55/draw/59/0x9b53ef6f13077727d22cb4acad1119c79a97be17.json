@@ -28,15 +28,6 @@
       }
     },
     {
-      "user": "0xe07E487d5A5E1098BBb4d259DaC5EF83Ae273f4e",
-      "prizes": {
-        "5": [
-          996,
-          1015
-        ]
-      }
-    },
-    {
       "user": "0x0a09cd09B0107Bb98a83f211704F036ECa94B92e",
       "prizes": {
         "3": [
@@ -119,14 +110,6 @@
       }
     },
     {
-      "user": "0xe48dD2A322a7EBFDAa9680fD2E8cEC27CBB7A765",
-      "prizes": {
-        "5": [
-          690
-        ]
-      }
-    },
-    {
       "user": "0x688004095939cbC1937DD39f27713Bf77F51C203",
       "prizes": {
         "4": [
@@ -179,22 +162,6 @@
       }
     },
     {
-      "user": "0xdceb0Bb3311342e3ce9e49f57aFfCE9dEac40bA1",
-      "prizes": {
-        "5": [
-          535
-        ]
-      }
-    },
-    {
-      "user": "0x6181B92270AD96B4E080d456D54cFdDb1c32caD9",
-      "prizes": {
-        "5": [
-          230
-        ]
-      }
-    },
-    {
       "user": "0xd2d9939580d3b89d12E1EE4636373A44f9E232EC",
       "prizes": {
         "3": [
@@ -223,14 +190,6 @@
       }
     },
     {
-      "user": "0x5e4568C4D8343052a06EC8AAB1e124AF08B73248",
-      "prizes": {
-        "5": [
-          795
-        ]
-      }
-    },
-    {
       "user": "0x20c7b705B9312daE30B5A96A61ec6013225595D4",
       "prizes": {
         "4": [
@@ -250,6 +209,47 @@
           946,
           977,
           998
+        ]
+      }
+    },
+    {
+      "user": "0xe07E487d5A5E1098BBb4d259DaC5EF83Ae273f4e",
+      "prizes": {
+        "5": [
+          996,
+          1015
+        ]
+      }
+    },
+    {
+      "user": "0xe48dD2A322a7EBFDAa9680fD2E8cEC27CBB7A765",
+      "prizes": {
+        "5": [
+          690
+        ]
+      }
+    },
+    {
+      "user": "0xdceb0Bb3311342e3ce9e49f57aFfCE9dEac40bA1",
+      "prizes": {
+        "5": [
+          535
+        ]
+      }
+    },
+    {
+      "user": "0x6181B92270AD96B4E080d456D54cFdDb1c32caD9",
+      "prizes": {
+        "5": [
+          230
+        ]
+      }
+    },
+    {
+      "user": "0x5e4568C4D8343052a06EC8AAB1e124AF08B73248",
+      "prizes": {
+        "5": [
+          795
         ]
       }
     },
