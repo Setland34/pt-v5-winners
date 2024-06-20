@@ -829,6 +829,62 @@
       }
     },
     {
+      "user": "0x95A3572a9DD3Fe1B5990cA0ad5334EC1802F2292",
+      "prizes": {
+        "2": [
+          1
+        ]
+      }
+    },
+    {
+      "user": "0xE8633e9DfAc4FcCd79d7D87845D887e42552D0B3",
+      "prizes": {
+        "2": [
+          5
+        ]
+      }
+    },
+    {
+      "user": "0x10D3620c81F8674bd75a694B56854aa16D4bA2fa",
+      "prizes": {
+        "2": [
+          1
+        ]
+      }
+    },
+    {
+      "user": "0x93f362aE6Fd979239ea77E21489090cc7a0caDDe",
+      "prizes": {
+        "2": [
+          3
+        ]
+      }
+    },
+    {
+      "user": "0xbF6582e6a896B69c30740BaAeF669A60dcD01A14",
+      "prizes": {
+        "2": [
+          10
+        ]
+      }
+    },
+    {
+      "user": "0x0F7E7141cf1dac685493C215702fd21A953D9CEd",
+      "prizes": {
+        "2": [
+          2
+        ]
+      }
+    },
+    {
+      "user": "0x48507f808cD1680318b843036210e0BA1338D1b6",
+      "prizes": {
+        "2": [
+          12
+        ]
+      }
+    },
+    {
       "user": "0x341799030efa74A29F801a448B76f23ee337c7F1",
       "prizes": {
         "3": [
@@ -977,62 +1033,6 @@
       "prizes": {
         "3": [
           22
-        ]
-      }
-    },
-    {
-      "user": "0x95A3572a9DD3Fe1B5990cA0ad5334EC1802F2292",
-      "prizes": {
-        "2": [
-          1
-        ]
-      }
-    },
-    {
-      "user": "0xE8633e9DfAc4FcCd79d7D87845D887e42552D0B3",
-      "prizes": {
-        "2": [
-          5
-        ]
-      }
-    },
-    {
-      "user": "0x10D3620c81F8674bd75a694B56854aa16D4bA2fa",
-      "prizes": {
-        "2": [
-          1
-        ]
-      }
-    },
-    {
-      "user": "0x93f362aE6Fd979239ea77E21489090cc7a0caDDe",
-      "prizes": {
-        "2": [
-          3
-        ]
-      }
-    },
-    {
-      "user": "0xbF6582e6a896B69c30740BaAeF669A60dcD01A14",
-      "prizes": {
-        "2": [
-          10
-        ]
-      }
-    },
-    {
-      "user": "0x0F7E7141cf1dac685493C215702fd21A953D9CEd",
-      "prizes": {
-        "2": [
-          2
-        ]
-      }
-    },
-    {
-      "user": "0x48507f808cD1680318b843036210e0BA1338D1b6",
-      "prizes": {
-        "2": [
-          12
         ]
       }
     }
