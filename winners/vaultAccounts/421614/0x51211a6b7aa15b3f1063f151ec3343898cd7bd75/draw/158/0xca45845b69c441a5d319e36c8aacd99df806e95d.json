@@ -1,58 +1,6 @@
 {
   "winners": [
     {
-      "user": "0x84dBCd8D2D5003C03C2832A057D48f5a85a53f1f",
-      "prizes": {
-        "2": [
-          12
-        ]
-      }
-    },
-    {
-      "user": "0x2CbECfA68f85EE1d19d72370387f22b6457dEE93",
-      "prizes": {
-        "2": [
-          11
-        ],
-        "4": [
-          131
-        ]
-      }
-    },
-    {
-      "user": "0x6c3E7FDc24A4D3d7526894cc5c8a0dD2Df06996c",
-      "prizes": {
-        "2": [
-          14
-        ]
-      }
-    },
-    {
-      "user": "0x997cabbde65b3dc76D07266FdF8CAB61081C5171",
-      "prizes": {
-        "2": [
-          0,
-          2
-        ]
-      }
-    },
-    {
-      "user": "0xDE0617B473B3AE231edf7452a942bcBE7ca9F660",
-      "prizes": {
-        "2": [
-          0
-        ]
-      }
-    },
-    {
-      "user": "0xa1f48cb815496b6a1243464F7A4DD4C8F5AA6FB5",
-      "prizes": {
-        "2": [
-          0
-        ]
-      }
-    },
-    {
       "user": "0x21890392cca9D86E0800F89400135C589eAe34AA",
       "prizes": {
         "3": [
@@ -285,6 +233,58 @@
         "4": [
           77,
           110
+        ]
+      }
+    },
+    {
+      "user": "0x84dBCd8D2D5003C03C2832A057D48f5a85a53f1f",
+      "prizes": {
+        "2": [
+          12
+        ]
+      }
+    },
+    {
+      "user": "0x2CbECfA68f85EE1d19d72370387f22b6457dEE93",
+      "prizes": {
+        "2": [
+          11
+        ],
+        "4": [
+          131
+        ]
+      }
+    },
+    {
+      "user": "0x6c3E7FDc24A4D3d7526894cc5c8a0dD2Df06996c",
+      "prizes": {
+        "2": [
+          14
+        ]
+      }
+    },
+    {
+      "user": "0x997cabbde65b3dc76D07266FdF8CAB61081C5171",
+      "prizes": {
+        "2": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "user": "0xDE0617B473B3AE231edf7452a942bcBE7ca9F660",
+      "prizes": {
+        "2": [
+          0
+        ]
+      }
+    },
+    {
+      "user": "0xa1f48cb815496b6a1243464F7A4DD4C8F5AA6FB5",
+      "prizes": {
+        "2": [
+          0
         ]
       }
     },
