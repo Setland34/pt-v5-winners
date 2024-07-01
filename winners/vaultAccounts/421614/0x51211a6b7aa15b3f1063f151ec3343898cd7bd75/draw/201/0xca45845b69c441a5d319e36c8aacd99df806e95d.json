@@ -607,6 +607,60 @@
       }
     },
     {
+      "user": "0x183CbDd785E23515524c1b8BEf3cAaB7f31d5597",
+      "prizes": {
+        "2": [
+          0
+        ]
+      }
+    },
+    {
+      "user": "0x0F60d0CFeD092BE107431B72fFBcc696905905B5",
+      "prizes": {
+        "2": [
+          15
+        ],
+        "3": [
+          16
+        ]
+      }
+    },
+    {
+      "user": "0xf3786CC8241E56b7E3366e65feb99DE7E32F7670",
+      "prizes": {
+        "2": [
+          8
+        ]
+      }
+    },
+    {
+      "user": "0xfdf6C53e7dC885055295E83fD38e7231D219fC3F",
+      "prizes": {
+        "2": [
+          6
+        ]
+      }
+    },
+    {
+      "user": "0xdf4e62dCE7220cf4062544B0Be11531EDC93e5a3",
+      "prizes": {
+        "2": [
+          6
+        ],
+        "3": [
+          52
+        ]
+      }
+    },
+    {
+      "user": "0x012B69DEDBbD1AA6d5FA3bB60857aBbaCfE9e0Eb",
+      "prizes": {
+        "2": [
+          10
+        ]
+      }
+    },
+    {
       "user": "0xED6eEC04311E6E5a3cFC7343E1753D51f1960657",
       "prizes": {
         "3": [
@@ -736,17 +790,6 @@
       }
     },
     {
-      "user": "0x0F60d0CFeD092BE107431B72fFBcc696905905B5",
-      "prizes": {
-        "2": [
-          15
-        ],
-        "3": [
-          16
-        ]
-      }
-    },
-    {
       "user": "0xAA414bc351EEe8Ba009D017d9cccD261Cb863E7a",
       "prizes": {
         "3": [
@@ -771,17 +814,6 @@
       }
     },
     {
-      "user": "0xdf4e62dCE7220cf4062544B0Be11531EDC93e5a3",
-      "prizes": {
-        "2": [
-          6
-        ],
-        "3": [
-          52
-        ]
-      }
-    },
-    {
       "user": "0x23d5b24911034E24D31ae0B80Fa9F964E771455e",
       "prizes": {
         "3": [
@@ -794,38 +826,6 @@
       "prizes": {
         "3": [
           46
-        ]
-      }
-    },
-    {
-      "user": "0x183CbDd785E23515524c1b8BEf3cAaB7f31d5597",
-      "prizes": {
-        "2": [
-          0
-        ]
-      }
-    },
-    {
-      "user": "0xf3786CC8241E56b7E3366e65feb99DE7E32F7670",
-      "prizes": {
-        "2": [
-          8
-        ]
-      }
-    },
-    {
-      "user": "0xfdf6C53e7dC885055295E83fD38e7231D219fC3F",
-      "prizes": {
-        "2": [
-          6
-        ]
-      }
-    },
-    {
-      "user": "0x012B69DEDBbD1AA6d5FA3bB60857aBbaCfE9e0Eb",
-      "prizes": {
-        "2": [
-          10
         ]
       }
     }
