@@ -1,60 +1,6 @@
 {
   "winners": [
     {
-      "user": "0x85e7ebc8eB706bea5D4F52C0B1334b80D7174DD2",
-      "prizes": {
-        "2": [
-          3
-        ]
-      }
-    },
-    {
-      "user": "0xcADb47921016470aEa1Fb17c8FFCdb14f1C65362",
-      "prizes": {
-        "2": [
-          14
-        ],
-        "4": [
-          117
-        ]
-      }
-    },
-    {
-      "user": "0xc92a1f567dFA9095A9563dE245FddeF7FE4663FF",
-      "prizes": {
-        "2": [
-          11
-        ]
-      }
-    },
-    {
-      "user": "0x189A0972984a35582a3c99316F0DAf718931765d",
-      "prizes": {
-        "2": [
-          5
-        ]
-      }
-    },
-    {
-      "user": "0x5e0327367e4E65C33Ba647FD90aaeaEe688b6D4b",
-      "prizes": {
-        "2": [
-          8
-        ],
-        "4": [
-          212
-        ]
-      }
-    },
-    {
-      "user": "0xdf4e62dCE7220cf4062544B0Be11531EDC93e5a3",
-      "prizes": {
-        "2": [
-          11
-        ]
-      }
-    },
-    {
       "user": "0x72bb7d7544502B70099A50F7d1AC4595aa742346",
       "prizes": {
         "3": [
@@ -140,6 +86,60 @@
       "prizes": {
         "3": [
           18
+        ]
+      }
+    },
+    {
+      "user": "0x85e7ebc8eB706bea5D4F52C0B1334b80D7174DD2",
+      "prizes": {
+        "2": [
+          3
+        ]
+      }
+    },
+    {
+      "user": "0xcADb47921016470aEa1Fb17c8FFCdb14f1C65362",
+      "prizes": {
+        "2": [
+          14
+        ],
+        "4": [
+          117
+        ]
+      }
+    },
+    {
+      "user": "0xc92a1f567dFA9095A9563dE245FddeF7FE4663FF",
+      "prizes": {
+        "2": [
+          11
+        ]
+      }
+    },
+    {
+      "user": "0x189A0972984a35582a3c99316F0DAf718931765d",
+      "prizes": {
+        "2": [
+          5
+        ]
+      }
+    },
+    {
+      "user": "0x5e0327367e4E65C33Ba647FD90aaeaEe688b6D4b",
+      "prizes": {
+        "2": [
+          8
+        ],
+        "4": [
+          212
+        ]
+      }
+    },
+    {
+      "user": "0xdf4e62dCE7220cf4062544B0Be11531EDC93e5a3",
+      "prizes": {
+        "2": [
+          11
         ]
       }
     },
