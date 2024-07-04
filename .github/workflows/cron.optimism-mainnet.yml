@@ -41,6 +41,7 @@ jobs:
         uses: actions/checkout@master
         with:
           repository: chuckbergeron/foundry-winner-calc
+          ref: '5cdf441a6aafdba9b5627a317449810a91276758'
           path: './foundry-winner-calc'
 
       # -------------------------------------------------------- #
