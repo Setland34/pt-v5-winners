@@ -40,7 +40,7 @@ jobs:
       - name: Clone foundry-winner-calc repo
         uses: actions/checkout@master
         with:
-          repository: GenerationSoftware/foundry-winner-calc
+          repository: chuckbergeron/foundry-winner-calc
           path: './foundry-winner-calc'
 
       # -------------------------------------------------------- #
