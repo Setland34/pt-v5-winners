@@ -85,12 +85,9 @@ jobs:
       # 5. Loop through vault input files, compute winners
       - name: Iterate vaults
         id: processVaults
-        uses: chuckbergeron/executable-wrapper@e19cd743c8f0c6af006f6a25bd6715c770569d72
-        with:
-          working-directory: ./foundry-winner-calc
-          run_command: |
+        working-directory: ./foundry-winner-calc
+        run: |
           for i in $FILELIST; do
-            echo "Processing: ${i}"
             node index.js ${i} ../${{ env.OUTPUT_DIRECTORY_NAME }}/${i}
           done
 
