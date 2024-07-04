@@ -87,9 +87,11 @@ jobs:
         id: processVaults
         working-directory: ./foundry-winner-calc
         run: |
-          for i in $FILELIST; do
-            node index.js ${i} ../${{ env.OUTPUT_DIRECTORY_NAME }}/${i}
-          done
+          {
+            for i in $FILELIST; do
+              node index.js ${i} ../${{ env.OUTPUT_DIRECTORY_NAME }}/${i}
+            done
+          } >> "$GITHUB_ENV"
 
       # 6. Concat winner output files into 1 winners.json file
       - name: Concat Winner Files
