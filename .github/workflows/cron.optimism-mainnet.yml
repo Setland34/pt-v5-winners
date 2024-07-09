@@ -6,10 +6,8 @@ on:
 env:
   CHAIN_ID: 10
   PRIZE_POOL_ADDRESS: "0xf35fe10ffd0a9672d0095c435fd8767a7fe29b55"
-  VAULT_ACCOUNTS_DIRECTORY_NAME: "vaultAccounts"
   OUTPUT_DIRECTORY_NAME: "winners"
-  CLI_VERSION: "1.2.0"
-  FWC_RPC_URL: ${{ secrets.OPTIMISM_MAINNET_RPC_URL }}
+  CLI_VERSION: "2.0.0-beta.1"
   JSON_RPC_URL: ${{ secrets.OPTIMISM_MAINNET_RPC_URL }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/396f04daedc5a38935460ddf47d2f10e9ac1fec6/deployments/optimism/contracts.json'
   SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-optimism/version/latest?source=pooltogether'
@@ -34,16 +32,6 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       
-      - name: Install Foundry
-        uses: foundry-rs/foundry-toolchain@v1
-
-      - name: Clone foundry-winner-calc repo
-        uses: actions/checkout@master
-        with:
-          repository: chuckbergeron/foundry-winner-calc
-          ref: '5cdf441a6aafdba9b5627a317449810a91276758'
-          path: './foundry-winner-calc'
-
       # -------------------------------------------------------- #
       # Optimism Mainnet
       # -------------------------------------------------------- #
@@ -53,70 +41,31 @@ jobs:
           npm install -g @generationsoftware/pt-v5-cli@${{ env.CLI_VERSION }}
           echo "$(npm -g bin)" >> $GITHUB_PATH
           
-      # 2. Compute JSON input files (vault accounts)
-      - name: Optimism Mainnet Vault Accounts
-        id: vaultAccountsOptimism
+      # 2. Find depositors, winners, and output them for each vault to JSON files
+      - name: Optimism Mainnet - Compile Winners
+        id: compileWinnersOptimism
         uses: chuckbergeron/executable-wrapper@e19cd743c8f0c6af006f6a25bd6715c770569d72
         continue-on-error: true
         with:
-          working-directory: ./foundry-winner-calc
-          run_command: ptv5 utils vaultAccounts -o ./${{ env.VAULT_ACCOUNTS_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }} -j ${{ env.CONTRACT_JSON_URL }} -s ${{ env.SUBGRAPH_URL }}
+          run_command: ptv5 utils compileWinners -o ./${{ env.OUTPUT_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }} -j ${{ env.CONTRACT_JSON_URL }} -s ${{ env.SUBGRAPH_URL }}
 
-      # 3. Install package deps, build contracts
-      - name: Install deps and compile
-        run: |
-          cd ./foundry-winner-calc
-          npm install
-          npm run build
-          cd sol
-          forge install
-          forge build
-          cd ..
-
-      # 4. Store list of input JSON files in variable
-      - name: Finding files
-        working-directory: ./foundry-winner-calc
-        run: |
-          {
-            echo 'FILELIST<<EOF'
-            find ./${{ env.VAULT_ACCOUNTS_DIRECTORY_NAME }} -type f -name '0x*.json' -print
-            echo EOF
-          } >> "$GITHUB_ENV"
-      
-      # 5. Loop through vault input files, compute winners
-      - name: Iterate vaults
-        id: processVaults
-        working-directory: ./foundry-winner-calc
-        run: |
-          for i in $FILELIST; do
-            echo "Processing: ${i}"
-            node index.js ${i} ../${{ env.OUTPUT_DIRECTORY_NAME }}/${i}
-          done
-
-      # 6. Concat winner output files into 1 winners.json file
-      - name: Concat Winner Files
-        uses: chuckbergeron/executable-wrapper@e19cd743c8f0c6af006f6a25bd6715c770569d72
-        continue-on-error: true
-        with:
-          working-directory: ./${{ env.OUTPUT_DIRECTORY_NAME }}
-          run_command: ptv5 utils concatWinners -o ./${{ env.VAULT_ACCOUNTS_DIRECTORY_NAME }} -p ${{ env.PRIZE_POOL_ADDRESS }} -c ${{ env.CHAIN_ID }} -j ${{ env.CONTRACT_JSON_URL }} -s ${{ env.SUBGRAPH_URL }}
-
-      # 7. Commit
+      # 3. Commit
       - name: Commit Optimism Mainnet
-        if: steps.vaultAccountsOptimism.outputs.runStatus == 'true'
+        if: steps.compileWinnersOptimism.outputs.runStatus == 'true'
         continue-on-error: true
         run: |
           git config pull.rebase false
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git pull
+          ls
           git add ./${{ env.OUTPUT_DIRECTORY_NAME }}
-          git commit -m "Add mainnet winner results for Optimism Mainnet draw #${{ steps.vaultAccountsOptimism.outputs.drawId }}"
+          git commit -m "Add mainnet winner results for Optimism Mainnet draw #${{ steps.compileWinnersOptimism.outputs.drawId }}"
 
-      # 8. Push
+      # 4. Push
       - name: Push changes (if required)
         uses: ad-m/github-push-action@master
-        if: steps.vaultAccountsOptimism.outputs.runStatus == 'true'
+        if: steps.compileWinnersOptimism.outputs.runStatus == 'true'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
