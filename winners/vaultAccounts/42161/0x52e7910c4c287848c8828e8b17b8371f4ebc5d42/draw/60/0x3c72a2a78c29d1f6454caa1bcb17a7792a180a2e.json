@@ -98,26 +98,6 @@
   ],
   "winners": [
     {
-      "user": "0x747a1b709a12274a35c7be8b37adea98d5b7bc98",
-      "prizes": {
-        "3": [
-          9
-        ]
-      }
-    },
-    {
-      "user": "0xf112f84c28795172cf998ea5d2a5993f78ccbddf",
-      "prizes": {
-        "3": [
-          7,
-          10,
-          22,
-          35,
-          59
-        ]
-      }
-    },
-    {
       "user": "0xc1c79c6378e5a72895c8ea15fc6dd59ffddc8dee",
       "prizes": {
         "2": [
@@ -178,6 +158,26 @@
         ],
         "3": [
           31
+        ]
+      }
+    },
+    {
+      "user": "0x747a1b709a12274a35c7be8b37adea98d5b7bc98",
+      "prizes": {
+        "3": [
+          9
+        ]
+      }
+    },
+    {
+      "user": "0xf112f84c28795172cf998ea5d2a5993f78ccbddf",
+      "prizes": {
+        "3": [
+          7,
+          10,
+          22,
+          35,
+          59
         ]
       }
     },
