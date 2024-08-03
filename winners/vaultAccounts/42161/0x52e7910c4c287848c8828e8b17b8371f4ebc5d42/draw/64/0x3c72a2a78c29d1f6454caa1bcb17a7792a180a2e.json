@@ -99,23 +99,18 @@
   ],
   "winners": [
     {
-      "user": "0xf112f84c28795172cf998ea5d2a5993f78ccbddf",
+      "user": "0xdd45ca901067d65860b54d4310e37371cd92fb09",
       "prizes": {
-        "3": [
-          33,
-          37
+        "2": [
+          2
         ]
       }
     },
     {
-      "user": "0x218b689f3ee0c110fcf5f5b513a16cadf7a7a343",
+      "user": "0xc1c79c6378e5a72895c8ea15fc6dd59ffddc8dee",
       "prizes": {
-        "3": [
-          7,
-          16,
-          17,
-          25,
-          48
+        "2": [
+          8
         ]
       }
     },
@@ -136,6 +131,46 @@
           54,
           56,
           61
+        ]
+      }
+    },
+    {
+      "user": "0x7bcbb1198e2547760aed8edaa59960244db88e2f",
+      "prizes": {
+        "1": [
+          0
+        ],
+        "2": [
+          9
+        ]
+      }
+    },
+    {
+      "user": "0x1084b55cb63de549806a521036f7dad2d37e3fae",
+      "prizes": {
+        "2": [
+          3
+        ]
+      }
+    },
+    {
+      "user": "0xf112f84c28795172cf998ea5d2a5993f78ccbddf",
+      "prizes": {
+        "3": [
+          33,
+          37
+        ]
+      }
+    },
+    {
+      "user": "0x218b689f3ee0c110fcf5f5b513a16cadf7a7a343",
+      "prizes": {
+        "3": [
+          7,
+          16,
+          17,
+          25,
+          48
         ]
       }
     },
@@ -167,41 +202,6 @@
       "prizes": {
         "3": [
           22
-        ]
-      }
-    },
-    {
-      "user": "0xdd45ca901067d65860b54d4310e37371cd92fb09",
-      "prizes": {
-        "2": [
-          2
-        ]
-      }
-    },
-    {
-      "user": "0xc1c79c6378e5a72895c8ea15fc6dd59ffddc8dee",
-      "prizes": {
-        "2": [
-          8
-        ]
-      }
-    },
-    {
-      "user": "0x7bcbb1198e2547760aed8edaa59960244db88e2f",
-      "prizes": {
-        "1": [
-          0
-        ],
-        "2": [
-          9
-        ]
-      }
-    },
-    {
-      "user": "0x1084b55cb63de549806a521036f7dad2d37e3fae",
-      "prizes": {
-        "2": [
-          3
         ]
       }
     },
