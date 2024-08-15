@@ -5777,18 +5777,18 @@
       }
     },
     {
-      "user": "0xafabd134649cc9936b8355bcefe30321211bc719",
-      "prizes": {
-        "5": [
-          325
-        ]
-      }
-    },
-    {
       "user": "0xbd167d37df42df3e8e2d4ffbc8993e3100097ac7",
       "prizes": {
         "4": [
           18
+        ]
+      }
+    },
+    {
+      "user": "0xafabd134649cc9936b8355bcefe30321211bc719",
+      "prizes": {
+        "5": [
+          325
         ]
       }
     }
