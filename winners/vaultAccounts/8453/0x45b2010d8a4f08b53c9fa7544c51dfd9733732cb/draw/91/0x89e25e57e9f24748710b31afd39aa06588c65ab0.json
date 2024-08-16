@@ -5136,18 +5136,18 @@
       }
     },
     {
-      "user": "0x39beb60bc4c1b8b0ebeedc515c7a56e7dfb3a5a9",
-      "prizes": {
-        "3": [
-          46
-        ]
-      }
-    },
-    {
       "user": "0x1fc0f384ab5e0b455f68514f72fb4fb775e786b5",
       "prizes": {
         "5": [
           328
+        ]
+      }
+    },
+    {
+      "user": "0x39beb60bc4c1b8b0ebeedc515c7a56e7dfb3a5a9",
+      "prizes": {
+        "3": [
+          46
         ]
       }
     }
