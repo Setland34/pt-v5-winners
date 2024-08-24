@@ -166,6 +166,14 @@
       }
     },
     {
+      "user": "0xb6aeafd822eada55f7c8bbcae4f4ea81a50a92d7",
+      "prizes": {
+        "7": [
+          1379
+        ]
+      }
+    },
+    {
       "user": "0x3216a8a03b07b6b19cbc21d62c8942e625fc3e07",
       "prizes": {
         "6": [
@@ -199,10 +207,26 @@
       }
     },
     {
-      "user": "0x9f36a6bb398118bdcd5b1bc3343d8feb6d7d02b9",
+      "user": "0x61b5227a5104fa6c255fdfb852cc936c34dc863f",
       "prizes": {
-        "6": [
-          1758
+        "7": [
+          4777
+        ]
+      }
+    },
+    {
+      "user": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
+      "prizes": {
+        "7": [
+          3186
+        ]
+      }
+    },
+    {
+      "user": "0x4cd7a2a984ced0c9f7316b2b4427601e6db87b30",
+      "prizes": {
+        "7": [
+          14402
         ]
       }
     },
@@ -218,6 +242,14 @@
         "7": [
           8450,
           14178
+        ]
+      }
+    },
+    {
+      "user": "0xf199f2c9db81d8359c9eaed16d7df8a1857d3fc3",
+      "prizes": {
+        "7": [
+          15505
         ]
       }
     },
@@ -300,54 +332,6 @@
       }
     },
     {
-      "user": "0xa7f92620b0bbdd6d032e24d29cd5bc8337eeb2a6",
-      "prizes": {
-        "5": [
-          964
-        ]
-      }
-    },
-    {
-      "user": "0xb6aeafd822eada55f7c8bbcae4f4ea81a50a92d7",
-      "prizes": {
-        "7": [
-          1379
-        ]
-      }
-    },
-    {
-      "user": "0x61b5227a5104fa6c255fdfb852cc936c34dc863f",
-      "prizes": {
-        "7": [
-          4777
-        ]
-      }
-    },
-    {
-      "user": "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27",
-      "prizes": {
-        "7": [
-          3186
-        ]
-      }
-    },
-    {
-      "user": "0x4cd7a2a984ced0c9f7316b2b4427601e6db87b30",
-      "prizes": {
-        "7": [
-          14402
-        ]
-      }
-    },
-    {
-      "user": "0xf199f2c9db81d8359c9eaed16d7df8a1857d3fc3",
-      "prizes": {
-        "7": [
-          15505
-        ]
-      }
-    },
-    {
       "user": "0x9b549075f5460cb5c4fb9568778c12283bf99aa9",
       "prizes": {
         "7": [
@@ -386,6 +370,22 @@
         "7": [
           6127,
           10025
+        ]
+      }
+    },
+    {
+      "user": "0x9f36a6bb398118bdcd5b1bc3343d8feb6d7d02b9",
+      "prizes": {
+        "6": [
+          1758
+        ]
+      }
+    },
+    {
+      "user": "0xa7f92620b0bbdd6d032e24d29cd5bc8337eeb2a6",
+      "prizes": {
+        "5": [
+          964
         ]
       }
     }
