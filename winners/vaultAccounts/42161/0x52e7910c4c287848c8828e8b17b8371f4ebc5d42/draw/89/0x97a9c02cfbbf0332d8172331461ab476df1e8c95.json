@@ -46,10 +46,10 @@
       }
     },
     {
-      "user": "0xe48dd2a322a7ebfdaa9680fd2e8cec27cbb7a765",
+      "user": "0xe3eb2ea54f1c9a62bd694c58ebc097157e943bb1",
       "prizes": {
-        "3": [
-          60
+        "2": [
+          15
         ]
       }
     },
@@ -69,10 +69,10 @@
       }
     },
     {
-      "user": "0xe3eb2ea54f1c9a62bd694c58ebc097157e943bb1",
+      "user": "0xe48dd2a322a7ebfdaa9680fd2e8cec27cbb7a765",
       "prizes": {
-        "2": [
-          15
+        "3": [
+          60
         ]
       }
     }
