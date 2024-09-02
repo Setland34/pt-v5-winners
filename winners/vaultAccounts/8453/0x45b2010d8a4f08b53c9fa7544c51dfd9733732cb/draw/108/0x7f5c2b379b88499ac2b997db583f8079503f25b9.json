@@ -808,18 +808,18 @@
       }
     },
     {
-      "user": "0x1f335c8ab8514920dba51a72f39e92b514cbacef",
-      "prizes": {
-        "6": [
-          915
-        ]
-      }
-    },
-    {
       "user": "0x48da18adaeed306ed997cbc1943f9fac594d881a",
       "prizes": {
         "5": [
           830
+        ]
+      }
+    },
+    {
+      "user": "0x1f335c8ab8514920dba51a72f39e92b514cbacef",
+      "prizes": {
+        "6": [
+          915
         ]
       }
     }
