@@ -13,7 +13,7 @@ env:
   SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/41211/pt-v5-base/version/latest?source=pooltogether'
   NODE_OPTIONS: "--max_old_space_size=32768"
   DEBUG: true
-  PRIZE_TIERS_TO_COMPUTE: 0,1,2,3,4,5,6
+  PRIZE_TIERS_TO_COMPUTE: 0,1,2,3,4,5
 permissions: write-all
 jobs:
   runCLI:
