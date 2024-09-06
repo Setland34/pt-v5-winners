@@ -8388,6 +8388,14 @@
   ],
   "winners": [
     {
+      "user": "0x6d694979ac5dca61e28e728c11382173b48c7adb",
+      "prizes": {
+        "5": [
+          30
+        ]
+      }
+    },
+    {
       "user": "0xcee753b4ec52f1de96eef971637d87404da7a3f4",
       "prizes": {
         "5": [
