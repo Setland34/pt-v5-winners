@@ -12,6 +12,7 @@ env:
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/396f04daedc5a38935460ddf47d2f10e9ac1fec6/deployments/optimism/contracts.json'
   SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-optimism/version/latest?source=pooltogether'
   NODE_OPTIONS: "--max_old_space_size=32768"
+  PRIZE_TIERS_TO_COMPUTE: 0,1,2,3,4,5
 permissions: write-all
 jobs:
   runCLI:
