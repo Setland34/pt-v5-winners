@@ -7,14 +7,5 @@
     "0xda8bfdeb2ca0d8c9d02920dab32b0c000eb058ff",
     "0x3530a17bb8163a742bfd1ae9ea7497ac9d604d70"
   ],
-  "winners": [
-    {
-      "user": "0xda8bfdeb2ca0d8c9d02920dab32b0c000eb058ff",
-      "prizes": {
-        "6": [
-          2223
-        ]
-      }
-    }
-  ]
+  "winners": []
 }
