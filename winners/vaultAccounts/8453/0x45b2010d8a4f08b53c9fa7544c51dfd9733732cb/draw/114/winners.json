@@ -1256,6 +1256,14 @@
   "0x50b2271c06b528223063ca340c496a0ed6c08714": [],
   "0x52e66d9055235be184c87f1caec81bd2d5fa17ab": [
     {
+      "user": "0x14d8d626a87b1d40b07ff8584f3decc2b59059d0",
+      "prizes": {
+        "5": [
+          977
+        ]
+      }
+    },
+    {
       "user": "0xd064fbda9ab12947332e5801c16c846134adda66",
       "prizes": {
         "5": [
