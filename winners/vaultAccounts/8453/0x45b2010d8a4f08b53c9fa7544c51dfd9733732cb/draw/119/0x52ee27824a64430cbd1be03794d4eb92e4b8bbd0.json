@@ -416,15 +416,5 @@
     "0x32e0f9d26d1e33625742a52620cc76c1130efde6",
     "0x0a50b7123783f2432ad85f4ae56b74d308e5ec59"
   ],
-  "winners": [
-    {
-      "user": "0x525b8ecd160b60a2a08c4880dfa2a4a3858c0b41",
-      "prizes": {
-        "5": [
-          535,
-          813
-        ]
-      }
-    }
-  ]
+  "winners": []
 }
