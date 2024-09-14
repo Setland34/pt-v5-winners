@@ -1669,18 +1669,18 @@
   "0x93697c160e5e20ebe7f1f68932fa8e10e00a3c45": [],
   "0x985c54cdf07703b07f303a3039459d6b1dd7330a": [
     {
-      "user": "0x410a2b02bad257d05c575f7541dd6fd06aa86358",
-      "prizes": {
-        "5": [
-          329
-        ]
-      }
-    },
-    {
       "user": "0x29a941582c8dcc911cfddead214a96bb12a68abf",
       "prizes": {
         "4": [
           225
+        ]
+      }
+    },
+    {
+      "user": "0x410a2b02bad257d05c575f7541dd6fd06aa86358",
+      "prizes": {
+        "5": [
+          329
         ]
       }
     }
