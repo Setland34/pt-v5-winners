@@ -19,7 +19,6 @@ jobs:
   runCLI:
     name: Winners Compute
     runs-on: ${{ matrix.os }}
-    if: false
     strategy:
       max-parallel: 1
       matrix:
