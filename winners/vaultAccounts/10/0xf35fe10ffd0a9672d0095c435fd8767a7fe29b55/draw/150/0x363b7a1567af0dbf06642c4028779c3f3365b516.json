@@ -5,5 +5,17 @@
   "userAddresses": [
     "0xb1e4f56590ca358548696d9ec161cd16cc3bb135"
   ],
-  "winners": []
+  "winners": [
+    {
+      "user": "0xb1e4f56590ca358548696d9ec161cd16cc3bb135",
+      "prizes": {
+        "5": [
+          181,
+          395,
+          510,
+          994
+        ]
+      }
+    }
+  ]
 }
