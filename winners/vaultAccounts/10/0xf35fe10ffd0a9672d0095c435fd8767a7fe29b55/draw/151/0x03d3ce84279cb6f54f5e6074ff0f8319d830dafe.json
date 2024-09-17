@@ -1861,18 +1861,18 @@
       }
     },
     {
-      "user": "0xa78bfa488f91e7561fd27b99982de9c2aee10cd9",
-      "prizes": {
-        "2": [
-          3
-        ]
-      }
-    },
-    {
       "user": "0x5584541f0fd8561455c211e10b5c9750fdd62fbb",
       "prizes": {
         "3": [
           23
+        ]
+      }
+    },
+    {
+      "user": "0xa78bfa488f91e7561fd27b99982de9c2aee10cd9",
+      "prizes": {
+        "2": [
+          3
         ]
       }
     }
