@@ -14,5 +14,14 @@
     "0x1000031209efade40263592b3b0c7ad18bbf344c",
     "0xf04fd8595b52f530a775c5aefca7a7c7afd00aa8"
   ],
-  "winners": []
+  "winners": [
+    {
+      "user": "0xf8f64d8a8a76801b9c1f6055b732d16d5ae7848d",
+      "prizes": {
+        "5": [
+          804
+        ]
+      }
+    }
+  ]
 }
