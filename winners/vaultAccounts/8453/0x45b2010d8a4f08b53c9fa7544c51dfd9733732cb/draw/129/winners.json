@@ -1656,10 +1656,10 @@
       }
     },
     {
-      "user": "0xfd1f937df2e64019d4e1e7eec745a61176ab2cbe",
+      "user": "0xe13ee4df81868304b4a4ba21ca0da6dc59de48be",
       "prizes": {
-        "5": [
-          392
+        "4": [
+          219
         ]
       }
     },
@@ -1678,18 +1678,18 @@
       }
     },
     {
-      "user": "0x11c3946dc1b186c2e8cdebbae4527b418a2395ee",
+      "user": "0xfd1f937df2e64019d4e1e7eec745a61176ab2cbe",
       "prizes": {
         "5": [
-          954
+          392
         ]
       }
     },
     {
-      "user": "0xe13ee4df81868304b4a4ba21ca0da6dc59de48be",
+      "user": "0x11c3946dc1b186c2e8cdebbae4527b418a2395ee",
       "prizes": {
-        "4": [
-          219
+        "5": [
+          954
         ]
       }
     }
