@@ -8394,6 +8394,54 @@
           914
         ]
       }
+    },
+    {
+      "user": "0x2176fbb04e80d3ddf96a6feb9e83a4a6a2c5c618",
+      "prizes": {
+        "5": [
+          579
+        ]
+      }
+    },
+    {
+      "user": "0x4e4f741a72adc87cd9fb08c3fc3e506ea134ed61",
+      "prizes": {
+        "5": [
+          178
+        ]
+      }
+    },
+    {
+      "user": "0xc04380ad4e86b6b3c99ff75dac3e9e085a1d6011",
+      "prizes": {
+        "5": [
+          165
+        ]
+      }
+    },
+    {
+      "user": "0xe416834ea99e8fc461c90a6e6a43063c33ccf2f1",
+      "prizes": {
+        "5": [
+          570
+        ]
+      }
+    },
+    {
+      "user": "0xef131d8e8e08daec19239db337ee207f3391efd4",
+      "prizes": {
+        "4": [
+          246
+        ]
+      }
+    },
+    {
+      "user": "0xf2833a3a6eeeaede0506ed9280bda2545fbb1096",
+      "prizes": {
+        "4": [
+          71
+        ]
+      }
     }
   ]
 }
