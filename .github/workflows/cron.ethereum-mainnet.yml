@@ -5,7 +5,7 @@ on:
   push:
 env:
   CHAIN_ID: 1
-  PRIZE_POOL_ADDRESS: ""
+  PRIZE_POOL_ADDRESS: "0x7865d01da4c9ba2f69b7879e6d2483ab6b354d95"
   OUTPUT_DIRECTORY_NAME: "winners/vaultAccounts"
   CLI_VERSION: "2.0.2"
   JSON_RPC_URL: ${{ secrets.ETHEREUM_MAINNET_RPC_URL }}
