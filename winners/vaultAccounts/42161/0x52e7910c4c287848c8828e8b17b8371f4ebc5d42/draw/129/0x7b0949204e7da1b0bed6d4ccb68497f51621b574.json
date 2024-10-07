@@ -77,22 +77,6 @@
   ],
   "winners": [
     {
-      "user": "0x233998c7a34f26ee25f6299ecf8e26c0ec9e62e4",
-      "prizes": {
-        "3": [
-          11
-        ]
-      }
-    },
-    {
-      "user": "0xf199f2c9db81d8359c9eaed16d7df8a1857d3fc3",
-      "prizes": {
-        "3": [
-          41
-        ]
-      }
-    },
-    {
       "user": "0x15bbcf76110505d3be5a9eb10c63f57f66d20c40",
       "prizes": {
         "2": [
@@ -101,39 +85,6 @@
         "3": [
           2,
           57
-        ]
-      }
-    },
-    {
-      "user": "0x95bd75d85c9e9f205d3d6edf3496f8b6864090ab",
-      "prizes": {
-        "3": [
-          21
-        ]
-      }
-    },
-    {
-      "user": "0x36f66448cdbde361d40a91ae0045fc80d5bc83d9",
-      "prizes": {
-        "3": [
-          17
-        ]
-      }
-    },
-    {
-      "user": "0xb8f0b940aa61b2030ccfcef74f8bc92bf819cb7b",
-      "prizes": {
-        "3": [
-          10
-        ]
-      }
-    },
-    {
-      "user": "0x61b5b7f679fa9738de16089b2aa6c8ae26a3558c",
-      "prizes": {
-        "3": [
-          29,
-          32
         ]
       }
     },
@@ -183,6 +134,55 @@
           44,
           57,
           61
+        ]
+      }
+    },
+    {
+      "user": "0x233998c7a34f26ee25f6299ecf8e26c0ec9e62e4",
+      "prizes": {
+        "3": [
+          11
+        ]
+      }
+    },
+    {
+      "user": "0xf199f2c9db81d8359c9eaed16d7df8a1857d3fc3",
+      "prizes": {
+        "3": [
+          41
+        ]
+      }
+    },
+    {
+      "user": "0x95bd75d85c9e9f205d3d6edf3496f8b6864090ab",
+      "prizes": {
+        "3": [
+          21
+        ]
+      }
+    },
+    {
+      "user": "0x36f66448cdbde361d40a91ae0045fc80d5bc83d9",
+      "prizes": {
+        "3": [
+          17
+        ]
+      }
+    },
+    {
+      "user": "0xb8f0b940aa61b2030ccfcef74f8bc92bf819cb7b",
+      "prizes": {
+        "3": [
+          10
+        ]
+      }
+    },
+    {
+      "user": "0x61b5b7f679fa9738de16089b2aa6c8ae26a3558c",
+      "prizes": {
+        "3": [
+          29,
+          32
         ]
       }
     },
