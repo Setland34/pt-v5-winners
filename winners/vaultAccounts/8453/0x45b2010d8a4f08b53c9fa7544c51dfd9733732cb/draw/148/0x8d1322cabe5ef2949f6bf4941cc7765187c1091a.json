@@ -158,14 +158,6 @@
   ],
   "winners": [
     {
-      "user": "0xcb55a313f341cd34edf3bd12bf5dfab4b67029fd",
-      "prizes": {
-        "5": [
-          600
-        ]
-      }
-    },
-    {
       "user": "0xa0a752b837c5171fe9c065251fcc2d6fcfd730e4",
       "prizes": {
         "4": [
@@ -182,6 +174,14 @@
           754,
           795,
           1011
+        ]
+      }
+    },
+    {
+      "user": "0xcb55a313f341cd34edf3bd12bf5dfab4b67029fd",
+      "prizes": {
+        "5": [
+          600
         ]
       }
     },
