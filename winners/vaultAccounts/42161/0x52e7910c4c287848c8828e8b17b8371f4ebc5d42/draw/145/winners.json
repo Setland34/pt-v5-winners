@@ -5,6 +5,23 @@
   "0x35ae48e18c65bd5d0a374a8f5c1f8e82a935e6e5": [],
   "0x3c72a2a78c29d1f6454caa1bcb17a7792a180a2e": [
     {
+      "user": "0x9703263141faeaf4a607ac9b72d1aa3af310cb87",
+      "prizes": {
+        "1": [
+          0
+        ]
+      }
+    },
+    {
+      "user": "0x95bd75d85c9e9f205d3d6edf3496f8b6864090ab",
+      "prizes": {
+        "1": [
+          0,
+          3
+        ]
+      }
+    },
+    {
       "user": "0xda8bfdeb2ca0d8c9d02920dab32b0c000eb058ff",
       "prizes": {
         "3": [
@@ -62,23 +79,6 @@
         ],
         "3": [
           51
-        ]
-      }
-    },
-    {
-      "user": "0x9703263141faeaf4a607ac9b72d1aa3af310cb87",
-      "prizes": {
-        "1": [
-          0
-        ]
-      }
-    },
-    {
-      "user": "0x95bd75d85c9e9f205d3d6edf3496f8b6864090ab",
-      "prizes": {
-        "1": [
-          0,
-          3
         ]
       }
     },
@@ -228,14 +228,6 @@
   "0x9527b4e411959971dcc9138df644f336e8999a54": [],
   "0x97a9c02cfbbf0332d8172331461ab476df1e8c95": [
     {
-      "user": "0xa38445311ccd04a54183cdd347e793f4d548df3f",
-      "prizes": {
-        "3": [
-          51
-        ]
-      }
-    },
-    {
       "user": "0x4a39341254a305b6a6eff215d49ae8460692fdcb",
       "prizes": {
         "2": [
@@ -249,24 +241,18 @@
           57
         ]
       }
+    },
+    {
+      "user": "0xa38445311ccd04a54183cdd347e793f4d548df3f",
+      "prizes": {
+        "3": [
+          51
+        ]
+      }
     }
   ],
   "0x9c21f4d1c93a2a29738d13bb062beecf17de382e": [],
   "0xcacba8be4bc225fb8d15a9a3b702f84ca3eba991": [
-    {
-      "user": "0xe48dd2a322a7ebfdaa9680fd2e8cec27cbb7a765",
-      "prizes": {
-        "2": [
-          11
-        ],
-        "3": [
-          9,
-          10,
-          27,
-          50
-        ]
-      }
-    },
     {
       "user": "0x3d6facad1f5c6463e592c94a2a316a7697ad9de0",
       "prizes": {
@@ -288,6 +274,20 @@
       "prizes": {
         "3": [
           21
+        ]
+      }
+    },
+    {
+      "user": "0xe48dd2a322a7ebfdaa9680fd2e8cec27cbb7a765",
+      "prizes": {
+        "2": [
+          11
+        ],
+        "3": [
+          9,
+          10,
+          27,
+          50
         ]
       }
     },
