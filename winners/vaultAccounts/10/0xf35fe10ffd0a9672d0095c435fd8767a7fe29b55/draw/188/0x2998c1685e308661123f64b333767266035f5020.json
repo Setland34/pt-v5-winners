@@ -319,24 +319,6 @@
   ],
   "winners": [
     {
-      "user": "0xbe4feae32210f682a41e1c41e3eaf4f8204cd29e",
-      "prizes": {
-        "5": [
-          1012
-        ]
-      }
-    },
-    {
-      "user": "0xad2d5bdc3c2dd575c0fa8b70b4f9dfc74b5c1590",
-      "prizes": {
-        "5": [
-          40,
-          165,
-          662
-        ]
-      }
-    },
-    {
       "user": "0xfb21f8a7a67c1846b1034d13ae118855ad1b8da0",
       "prizes": {
         "4": [
@@ -357,6 +339,56 @@
         ],
         "5": [
           778
+        ]
+      }
+    },
+    {
+      "user": "0x501d66e0b4254de6187443b9cdb744e2752f489e",
+      "prizes": {
+        "4": [
+          214
+        ]
+      }
+    },
+    {
+      "user": "0x233998c7a34f26ee25f6299ecf8e26c0ec9e62e4",
+      "prizes": {
+        "4": [
+          144
+        ]
+      }
+    },
+    {
+      "user": "0xe3431e7a6ac7c814286f69592bf8605bf21d9d82",
+      "prizes": {
+        "4": [
+          83
+        ]
+      }
+    },
+    {
+      "user": "0x44704724fd058ca0c6f3b3ad2b06de65110f4c26",
+      "prizes": {
+        "4": [
+          244
+        ]
+      }
+    },
+    {
+      "user": "0xbe4feae32210f682a41e1c41e3eaf4f8204cd29e",
+      "prizes": {
+        "5": [
+          1012
+        ]
+      }
+    },
+    {
+      "user": "0xad2d5bdc3c2dd575c0fa8b70b4f9dfc74b5c1590",
+      "prizes": {
+        "5": [
+          40,
+          165,
+          662
         ]
       }
     },
@@ -397,38 +429,6 @@
       "prizes": {
         "5": [
           698
-        ]
-      }
-    },
-    {
-      "user": "0x501d66e0b4254de6187443b9cdb744e2752f489e",
-      "prizes": {
-        "4": [
-          214
-        ]
-      }
-    },
-    {
-      "user": "0x233998c7a34f26ee25f6299ecf8e26c0ec9e62e4",
-      "prizes": {
-        "4": [
-          144
-        ]
-      }
-    },
-    {
-      "user": "0xe3431e7a6ac7c814286f69592bf8605bf21d9d82",
-      "prizes": {
-        "4": [
-          83
-        ]
-      }
-    },
-    {
-      "user": "0x44704724fd058ca0c6f3b3ad2b06de65110f4c26",
-      "prizes": {
-        "4": [
-          244
         ]
       }
     }
